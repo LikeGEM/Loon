@@ -2,7 +2,7 @@
 #!desc=阿里云盘首页优化
 #!homepage=https://gitlab.com/ddgksf2013
 #!author= ddgksf2013
-#!icon=
+#!icon=https://raw.githubusercontent.com/LikeGEM/Loon/main/png/ailiyunpan.png
 [MITM]
 hostname= api.aliyundrive.com
 
