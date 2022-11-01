@@ -7,4 +7,4 @@
 hostname= api.aliyundrive.com
 
 [Script]
-http-response ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/(users | apps\/widgets$) requires-body=1,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/alidrive.js
+http-response ^https?:\/\/api\.aliyundrive\.com\/apps\/v\d\/(users|apps\/widgets) requires-body=1,script-path=https://gitlab.com/ddgksf2013/Cuttlefish/-/raw/master/Script/alidrive.js
