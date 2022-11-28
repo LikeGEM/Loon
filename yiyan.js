@@ -1,8 +1,8 @@
-#!name=
-#!desc=
-#!homepage=
-#!author=
-#!icon=
+#!name= 一言
+#!desc= 一言解锁订阅
+#!homepage= https://ocd0522.tk/ddgksf2013
+#!author= ddgksf2013
+#!icon= https://raw.githubusercontent.com/LikeGEM/Loon/main/png/yiyan.png
 
 [Script]
 
