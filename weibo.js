@@ -2,7 +2,7 @@
 #!desc= 微博优化
 #!homepage= https://github.com/zmqcherish
 #!author= zmqcherish
-#!icon= https://raw.githubusercontent.com/LikeGEM/Loon/main/png/weibo.js
+#!icon= https://raw.githubusercontent.com/LikeGEM/Loon/main/png/weibo.png
 
 [Script]
 
