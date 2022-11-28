@@ -2,8 +2,9 @@
 
 #!name= Nicegram
 #!desc= Nicegram解锁订阅
-#!openUrl= https://github.com/LikeGEM
-#!author= https://raw.githubusercontent.com/LikeGEM/Loon/main/png/Nicegram.png
+#!homepage= https://github.com/LikeGEM
+#!author= LikeGEM
+#!icon= https://raw.githubusercontent.com/LikeGEM/Loon/main/png/Nicegram.png
 
 [Script]
 http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://raw.githubusercontent.com/LikeGEM/Loon/main/Nicegram.js, timeout=10, tag=Nicegram会员
