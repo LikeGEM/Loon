@@ -22,11 +22,11 @@
 [Script]
 
 # > XiaoHongShu_小红书_开屏广告@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/xiaohongshu.js, requires-body=true, timeout=10, tag=xiaohongshu
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config script-path= https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShu.conf, requires-body=true, timeout=10, tag=xiaohongshu
 # > XiaoHongShu_小红书_瀑布流@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/xiaohongshu.js, requires-body=true, timeout=10, tag=xiaohongshu
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? script-path= https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShu.conf, requires-body=true, timeout=10, tag=xiaohongshu
 # > XiaoHongShu_小红书_启动处理@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? script-path=https://ocd0522.tk/ddgksf2013/Cuttlefish/raw/branch/master/Script/xiaohongshu.js, requires-body=true, timeout=10, tag=xiaohongshu
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? script-path= https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShu.conf, requires-body=true, timeout=10, tag=xiaohongshu
 
 [MITM]
 
