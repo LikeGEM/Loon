@@ -1,8 +1,9 @@
 #!name= 小红书
 #!desc= 小红书优化
-#!homepage= https://ocd0522.tk/ddgksf2013
+#!homepage= https://github.com/ddgksf2013
 #!author= ddgksf2013
 #!icon= https://raw.githubusercontent.com/LikeGEM/Loon/main/png/xiaohongshu.png
+
 
 [Rewrite]
 
@@ -22,11 +23,11 @@
 [Script]
 
 # > XiaoHongShu_小红书_开屏广告@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config script-path= https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShu.conf, requires-body=true, timeout=10, tag=xiaohongshu
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config script-path=https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js, requires-body=true, timeout=10, tag=xiaohongshu
 # > XiaoHongShu_小红书_瀑布流@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? script-path= https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShu.conf, requires-body=true, timeout=10, tag=xiaohongshu
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js, requires-body=true, timeout=10, tag=xiaohongshu
 # > XiaoHongShu_小红书_启动处理@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? script-path= https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/XiaoHongShu.conf, requires-body=true, timeout=10, tag=xiaohongshu
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/xiaohongshu.js, requires-body=true, timeout=10, tag=xiaohongshu
 
 [MITM]
 
